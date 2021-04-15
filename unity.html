@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title>Sample Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <!--- Header! --->
+
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">PROJECTS</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>UNITY PROJECTS</h1>
+        </section>
+        <hr>
+
+        <!---course---->
+        <section class="course">
+            <h1>Unity projects</h1>
+            <p>Download Page with instructions for my unity projects.</p>
+
+            
+
+            <section class="course">
+                <h1>UNITY PROJECTS</h1>
+    
+                <div class="row1">
+                    <div class="course-col">
+                        <h3>Sky Jump! Download instructions</h3> 
+                        <img src="images/sky jump.jfif">
+                        <p> <b><u>For PC:</u></b> Press the download button for PC. It will redirect you to <br>
+                            google drive. Simple right-click and download the folder. Once downloaded <br>
+                            Search for SkyJump.exe and you are ready to go!(Separate Platforms, Separate buttons) <br>
+                            <b><u>For Android: </u></b> It has been uploaded on the Google play store. <br>
+                            <b><u>For IOS:</u></b> The file has been provided. Simply click the download button and then <br>
+                            download the present file!</p>
+                        <button class="hero-btn red-btn" onclick="download(parent.open('https://drive.google.com/drive/folders/1tFT3zc4tC36y9sPrixzElD93kiRcD7lB?usp=sharing'))">DOWNLOAD!</button>
+                        <i class="fa fa-windows"></i>
+                        <button class="hero-btn red-btn" onclick="download(parent.open('https://drive.google.com/drive/folders/1tFT3zc4tC36y9sPrixzElD93kiRcD7lB?usp=sharing'))">DOWNLOAD!</button>
+                        <i class="fa fa-apple"></i>
+                        <button class="hero-btn red-btn" onclick="download(parent.open('https://drive.google.com/drive/folders/1tFT3zc4tC36y9sPrixzElD93kiRcD7lB?usp=sharing'))">DOWNLOAD!</button>
+                        <i class="fa fa-android"></i>
+                        
+                    </div>
+    
+                    <div class="course-col">
+                        <h3>CUEBTHON! Download instructions</h3>
+                        <img src="images/cubethon.png">
+                        <p> <b><u>For PC:</u></b> Press the download button for PC. It will redirect you to <br>
+                            google drive. Simple right-click and download the folder. Once downloaded <br>
+                            Search for SkyJump.exe and you are ready to go!</p>
+                        <button class="hero-btn red-btn" onclick="download(parent.open('https://drive.google.com/drive/folders/1tFT3zc4tC36y9sPrixzElD93kiRcD7lB?usp=sharing'))">DOWNLOAD!</button>
+                        <i class="fa fa-windows"></i>
+                    </div>
+    
+                    <div class="course-col">
+                        <h3>Flappy Bird</h3>
+                        <img src="images/flappy-bird.png">
+                        <p> A copied version of Flappy Bird made in code.org.<br>
+                        Just simply click the mouse to keep flapping! <br>
+                        If you hit any one of the obstacles, wait for the bird to fall to the <br>
+                        ground and click start to play the game again! Happy Flappin'!</p>
+                            <button class="hero-btn red-btn" onclick="parent.open('https://studio.code.org/projects/gamelab/CF8Kp23S_4vK48gHINcMkKlG90zS4lAthMJS_dfUycQ')">PLAY!</button>
+                    </div>
+            </div>
+        </section>
+
+        <script>
+            function download(url) {
+                const a = document.createElement('a')
+                a.href = url
+                a.download = url.split('/').pop()
+                document.body.appendChild(a)
+                a.click()
+                document.body.removeChild(a)
+            }
+        </script>
+        <hr>
+
+        <!--- Facilities --->
+        <section class="facilities">
+            <h1>Sample Text(Editable)</h1>
+            <p>Here comes the sample text. Can be edited.</p>
+
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/library.png">
+                    <h3>SAMPLE TEXT(Editable)</h3>
+                    <p>Here comes the sample text. Can be edited.</p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="images/basketball.png">
+                    <h3>SAMPLE TEXT(Editable)</h3>
+                    <p>Here comes the sample text. Can be edited.</p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="images/cafeteria.png">
+                    <h3>SAMPLE TEXT(Editable)</h3>
+                    <p>Here comes the sample text. Can be edited.</p>
+                </div>
+            </div>
+        </section>
+
+        
+        <!--- Footer --->
+
+        <section class="footer">
+            <h4>About Me</h4>
+            <p>Game Developer. Sample Description</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube-play"></i>
+            </div>
+            <p>Made by- <b><u>SHIVANSH SHARMA</u></b> <br><i><b>TripleS Studios</b></i></p>
+        </section>
+
+
+
+
+
+
+        <!--Javascript for Toggle Menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>

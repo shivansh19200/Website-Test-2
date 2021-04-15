@@ -1,0 +1,298 @@
+<!-- TOTAL LINES OF CODE FOR WHOLE WEBSITE: 1397!-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title>Sample Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">PROJECTS</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+        <div class="text-box">
+            <h1>Triple S Studios</h1>
+            <p>Hey There! This is Shivansh Sharma! Welcome to the official website of TripleSStudios!
+            <br> All information about my projects and videos is provided here!
+            </p>
+            <a href="contact.html" class="hero-btn">VISIT OR CONTACT ME TO KNOW MORE</a>
+        </div>
+            
+        </section>
+        <hr>
+
+        <!---course---->
+        <section class="course">
+            <h1>My projects</h1>
+            <p>These are a few projects created by me across platforms. <br>
+            Code.org, Unity & purely using Visual Studio Code.</p>
+            <h1>Code.org</h1>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Maze Runner</h3>
+                    <img src="images/maze.png">
+                    <p> As the name suggests, it is a game that inculcates all the intriguing principles<br>
+                        of a maze: walls, obstacles and <br> ah yes!<br> Who can forget some closing doors!
+                        All the instructions have been provided at the start of the game. <br>
+                    Press SPACE and you are good to go! (Hint: 
+                    ¡En un momento dado, los controles cambian!)</p>
+                    <button class="hero-btn red-btn" onclick="parent.open('https://studio.code.org/projects/gamelab/TcaWAsjptNuoWxhiu06rN1JNoKfjfMSnsvwj_7ZkglA')">PLAY!</button>
+                </div>
+
+                <div class="course-col">
+                    <h3>Trex-runner</h3>
+                    <img src="images/trex.png">
+                    <p> A copied version of Trex-runner made in code.org.
+                        Just simply press the up arrow key or space key to jump!
+                        If you hit any one of the obstacles, its game over! You know the rules so <br>
+                        Happy Runnin'!</p>
+                    <button class="hero-btn red-btn" onclick="parent.open('https://studio.code.org/projects/gamelab/JLuAwaAZP7izqUubQK_4uNTM_7rHzGbq6vq1tpT-D1Myy')">PLAY!</button>
+                </div>
+
+                <div class="course-col">
+                    <h3>Flappy Bird</h3>
+                    <img src="images/flappy-bird.png">
+                    <p> A copied version of Flappy Bird made in code.org.<br>
+                    Just simply click the mouse to keep flapping! <br>
+                    If you hit any one of the obstacles, wait for the bird to fall to the <br>
+                    ground and click start to play the game again! Happy Flappin'!</p>
+                        <button class="hero-btn red-btn" onclick="parent.open('https://studio.code.org/projects/gamelab/CF8Kp23S_4vK48gHINcMkKlG90zS4lAthMJS_dfUycQ')">PLAY!</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="course">
+            <h1>UNITY PROJECTS</h1>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Sky Jump!</h3>
+                    <img src="images/sky jump.jfif">
+                    <p> Sky Jump! is a fast paced reflex game that tests your gaming nerves! <br>
+                        Tap to jump on moving platforms and travel the sky. Don’t fall, it hurts! <br>
+                        Seriously, Sky Jump is a gorgeous, addictive game that will keep the player entertained <br>
+                        for hours.
+                        Available for - PC, MAC, LINUX, ANDROID & IOS
+                    (Download instructions for each provided in the web-page).</p>
+                    <a href="unity.html" class="hero-btn red-btn">Redirect to Download page!</a>
+                </div>
+
+                <div class="course-col">
+                    <h3>CUBETHON</h3>
+                    <img src="images/cubethon.png" class="img1">
+                    <p> CUBETHON! is another fast paced reflex game for all the true gamers out there.
+                        In this game, you play as a cube, who has to dodge the cheeky black obstacles without
+                        getting knocked over. Also, constantly stay on the green ground or its GAME OVER!
+                        Don't lose your cool as the levels keep getting harder(trust me). <br>
+                        Available for - Windows PC <br>
+                        (Download instructions provided in the web-page).
+                    </p>
+                    <a href="unity.html" class="hero-btn red-btn">Redirect to Download page!</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="course">
+            <h1>JAVASCRIPT PROJECTS (one with html,css)</h1>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>TIC-TAC-TOE</h3>
+                    <img src="images/tic-tac-toe.png">
+                    <p> From the name itself you already know what it is! Yes.. It is a tic-tac-toe project
+                        purely using HTML,CSS and JAVASCRIPT.
+                        It is a user-friendly 1v1 game (not online multiplayer, local). The rules you already know
+                        so play carefully or you might end uo giving your title to someone else!
+                    </p>
+                    <button class="hero-btn red-btn" onclick="parent.open('https://shivansh19200.github.io/SHIVANSH-SHARMA-TIC-TAC-TOE/')">PLAY!</button>
+                </div>
+
+                <div class="course-col">
+                    <h3>CUBETHON</h3>
+                    <img src="images/cubethon.png" class="img1">
+                    <p> CUBETHON! is another fast paced reflex game for all the true gamers out there.
+                        In this game, you play as a cube, who has to dodge the cheeky black obstacles without
+                        getting knocked over. Also, constantly stay on the green ground or its GAME OVER!
+                        Don't lose your cool as the levels keep getting harder(trust me). <br>
+                        Available for - Windows PC <br>
+                        (Download instructions provided in the web-page).
+                    </p>
+                    <a href="unity.html" class="hero-btn red-btn">Redirect to Download page!</a>
+                </div>
+
+                <div class="course-col">
+                    <h3>Flappy Bird</h3>
+                    <img src="images/flappy-bird.png">
+                    <p> A copied version of Flappy Bird made in code.org.<br>
+                    Just simply click the mouse to keep flapping! <br>
+                    If you hit any one of the obstacles, wait for the bird to fall to the <br>
+                    ground and click start to play the game again! Happy Flappin'!</p>
+                        <button class="hero-btn red-btn" onclick="parent.open('https://studio.code.org/projects/gamelab/CF8Kp23S_4vK48gHINcMkKlG90zS4lAthMJS_dfUycQ')">PLAY!</button>
+                </div>
+            </div>
+        </section>
+
+        <!----- campus ----->
+
+        <section class="campus">
+            <h1>Some of my YouTube Videos</h1>
+            <p>Some trickshots and challenges on my YouTube channel with my friend- <br>Aryan Phophaliya</p>
+            <button class="hero-btn red-btn" onclick="parent.open('https://www.youtube.com/channel/UCOYX9pNyeeliZYRgenI6WWQ?sub_confirmation=1')">SUBSCRIBE!</button>
+
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/10-layers.jpg">
+                    <div class="layer">
+                        <h3>10 Layers Challenge</h3>
+                    </div>
+                </div>
+                
+
+                <div class="campus-col">
+                    <img src="images/bottle-flip.jpg">
+                    <div class="layer">
+                        <h3>Bottle Flip trickshots</h3>
+                    </div>
+                </div>
+
+                <div class="campus-col">
+                    <img src="images/nerf.jpg">
+                    <div class="layer">
+                        <h3>NERF SERIES- EPISODE 3</h3>
+                    </div>
+                </div>
+            </div>
+            <button class="hero-btn blue-btn" onclick="parent.open('https://www.youtube.com/watch?v=3ZHA3hFCpOs&t=200s')">REDIRECT TO VIDEO- 10 layers Challenge!</button>
+            <button class="hero-btn blue-btn" onclick="parent.open('https://www.youtube.com/watch?v=2aWex4O4ZC8')">REDIRECT TO VIDEO- Bottle flip trickshots!</button>
+            <button class="hero-btn blue-btn" onclick="parent.open('https://www.youtube.com/watch?v=0V1ibt8JmHY&t=1s')">REDIRECT TO VIDEO- Nerf Series Episode 3!</button>
+        </section>
+
+
+        <!-- Facilities -->
+        <!--section class="facilities">
+            <h1>Sample Text(Editable)</h1>
+            <p>Here comes the sample text. Can be edited.</p>
+
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/library.png">
+                    <h3>SAMPLE TEXT(Editable)</h3>
+                    <p>Here comes the sample text. Can be edited.</p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="images/basketball.png">
+                    <h3>SAMPLE TEXT(Editable)</h3>
+                    <p>Here comes the sample text. Can be edited.</p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="images/cafeteria.png">
+                    <h3>SAMPLE TEXT(Editable)</h3>
+                    <p>Here comes the sample text. Can be edited.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!--- Testimonials --->
+        <section class="testimonials">
+            <h1>What Users Say</h1>
+            <p>Some Honest reviews by my users across the globe.</p>
+            <button class="hero-btn red-btn" onclick="open('blog.html')">Leave A comment!</button>
+
+            <div class="row">
+                <div class="testimonial-col">
+                    <img src="images/user1.jpg">
+                    <div>
+                        <p>
+                            Brilliant projects! Absolutely loved all. The level of professionalism is
+                            great across all platforms! However some minor changes here and there can improve
+                            the projects by a whole lot!
+                        </p>
+                        <h3>Christine Berkley</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+
+                <div class="testimonial-col">
+                    <img src="images/user2.jpg">
+                    <div>
+                        <p>
+                            Sample Para. Can be edited. Paragraphs are the building blocks of papers. 
+                            Many students define paragraphs in terms of length: a paragraph is a group 
+                            of at least five sentences, a paragraph is half a page long, etc. 
+                        </p>
+                        <h3>David Byer</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--- Call To Action --->
+        <section class="cta">
+            <h1>Contact Me from around the world. Would Love to hear some feedback! <br>
+            There's Always a scope to improve.</h1>
+            <a href="contact.html" class="hero-btn">CONTACT US</a>
+        </section>
+
+        <!--- Footer --->
+        <section class="footer">
+            <h4>About Me</h4>
+            <p>Game Developer. Sample Description</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube-play"></i>
+            </div>
+            <p>Made by- <b><u>SHIVANSH SHARMA</u></b> <br><i><b>TripleS Studios</b></i></p>
+        </section>
+
+
+
+
+
+
+        <!--Javascript for Toggle Menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
